@@ -406,7 +406,7 @@ section {
 }
 
 /* Media Quries */
-@media (max-width: 768px) {
+@media (max-width: 1068px) {
   .home-img {
     display: none;
   }
@@ -420,6 +420,17 @@ section {
   }
   .main-nav a {
     font-size: 2rem;
+  }
+  .grid {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
   }
 }
 /*# sourceMappingURL=style.css.map */
