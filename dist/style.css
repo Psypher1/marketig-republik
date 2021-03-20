@@ -36,6 +36,183 @@
   font-size: 4rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  background: #eb1393;
+  color: #fff;
+  padding: 10px 30px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
+  background: #fff;
+  color: #eb1393;
+  border: 1px #eb1393 solid;
+}
+
+/* flex and grid */
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.grid-3 {
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+/* Card */
+.card {
+  background-color: #fff;
+  color: #111;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 1.25rem;
+  margin: 0.625rem;
+}
+
+/* Margin  */
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 1.5rem 0;
+}
+
+.my-3 {
+  margin: 2rem 0;
+}
+
+.my-4 {
+  margin: 3rem 0;
+}
+
+.my-5 {
+  margin: 4rem 0;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 1.5rem;
+}
+
+.m-3 {
+  margin: 2rem;
+}
+
+.m-4 {
+  margin: 3rem;
+}
+
+.m-5 {
+  margin: 4rem;
+}
+
+/* Padding */
+.px-1 {
+  padding: 1rem 0;
+}
+
+.px-2 {
+  padding: 1.5rem 0;
+}
+
+.px-3 {
+  padding: 2rem 0;
+}
+
+.px-4 {
+  padding: 3rem 0;
+}
+
+.px-5 {
+  padding: 4rem 0;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 1.5rem 0;
+}
+
+.py-3 {
+  padding: 2rem 0;
+}
+
+.py-4 {
+  padding: 3rem 0;
+}
+
+.py-5 {
+  padding: 4rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 2rem;
+}
+
+.p-4 {
+  padding: 3rem;
+}
+
+.p-5 {
+  padding: 4rem;
+}
+
+.p-6 {
+  padding: 5rem;
+}
+
+.p-7 {
+  padding: 6rem;
+}
+
+.p-used {
+  padding: 6.25rem;
+}
+
 *,
 *::after,
 *::before {
@@ -54,10 +231,56 @@ a {
   color: #111;
 }
 
+h1 {
+  font-weight: 500;
+}
+
+p {
+  margin: 20px 0 10px 0;
+}
+
 html,
 body {
   font-family: "Raleway", sans-serif;
   color: #111;
   background-color: #f8f8ff;
+}
+
+section {
+  padding: 100px;
+}
+
+/* NAVIGATION */
+.nav {
+  display: none;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  color: #207ca7;
+  font-weight: 700;
+}
+
+.logo span {
+  color: #eb1393;
+}
+
+.home h1 {
+  color: #207ca7;
+}
+
+.home-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 110%;
+}
+
+.home-content {
+  position: relative;
+  z-index: 20;
+  max-width: 600px;
 }
 /*# sourceMappingURL=style.css.map */
