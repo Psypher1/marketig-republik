@@ -360,4 +360,22 @@ section {
   z-index: 20;
   max-width: 600px;
 }
+
+/* Media Quries */
+@media (max-width: 768px) {
+  .home-img {
+    display: none;
+  }
+  .logo {
+    top: 10px;
+    left: 40px;
+    font-size: 1.5rem;
+  }
+  section {
+    padding: 100px 40px;
+  }
+  .main-nav a {
+    font-size: 2rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
