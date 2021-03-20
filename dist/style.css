@@ -566,12 +566,17 @@ section {
 }
 
 .contact-info .info-box .details h4 {
-  color: var(--secondary-color);
+  color: #207ca7;
 }
 
 .contact-info .info-box .details p,
 .contact-info .info-box .details a {
   color: #111;
+}
+
+.contact-info .info-box .details a {
+  display: inline-block;
+  margin: 20px 0 10px 0;
 }
 
 .contact-info .info-box .details a:hover {
@@ -597,6 +602,32 @@ section {
   .grid {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
+  }
+  .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-form {
+    width: 100%;
+    padding: 30px 30px 20px;
+  }
+  .contact-form .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-form .input50,
+  .contact-form .input100 {
+    width: 100%;
+    margin: 0;
+  }
+  .contact-info {
+    width: 100%;
+    margin-top: 20px;
+    padding: 30px 30px 20px;
   }
 }
 
