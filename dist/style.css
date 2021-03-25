@@ -346,7 +346,7 @@ section {
 }
 
 .home {
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 .home h1 {
@@ -464,6 +464,12 @@ section {
 }
 
 /* CONTACT */
+.contact-page {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
 .contact-page h1 {
   color: #207ca7;
 }
